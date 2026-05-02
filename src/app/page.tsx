@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { db } from '@/lib/db';
 import StoreClient from '@/components/store/store-client';
 import { NAV, BRAND } from '@/lib/text';
