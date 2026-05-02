@@ -1,0 +1,23 @@
+{
+  "name": "متجر ريام فاشن",
+  "short_name": "ريام فاشن",
+  "description": "متجر ريام فاشن - وجهتك الأولى للموضة والأناقة في اليمن",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFAF5",
+  "theme_color": "#B2AC88",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "/logo-icon.png",
+      "sizes": "248x251",
+      "type": "image/png"
+    },
+    {
+      "src": "/full-logo.png",
+      "sizes": "572x251",
+      "type": "image/png"
+    }
+  ]
+}
