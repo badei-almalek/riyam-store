@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import MetaPixel from "@/components/seo/meta-pixel";
 import { ThemeProvider } from "@/components/theme-provider";
 import { BRAND, SEO } from "@/lib/text";
+import { Analytics } from "@vercel/analytics/next";
 
 const cairo = Cairo({
   variable: "--font-cairo",
@@ -164,6 +165,7 @@ export default function RootLayout({
           {children}
           <Toaster />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
